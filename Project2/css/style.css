@@ -1,0 +1,93 @@
+@import url(reset.css);	
+{
+
+}
+
+.MainContent {
+	background-color: rgb(242, 242, 242);
+}
+.MainHeading {
+	height: 50px;
+	width: 100%;
+	background-color: rgb(0, 0, 102);
+	color: white;
+	padding-top: 25px;
+	padding-left: 10px;
+	font-size: x-large;
+	position: fixed;
+	top: 0;
+	z-index: 1;
+}
+.MainContent{
+	position: static;
+}
+.TableOne {
+	position: relative;
+	height: 500px;
+	width: 250px;
+	border: 2px solid black;
+    background-color: white;
+	border-radius: 10px;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 130px;
+	margin-left: 80px;
+	margin-right: 340px;
+	margin-bottom: 50px;
+	padding: 20px;
+}
+.HeaderOne {
+	margin-top: 20px;
+	margin-bottom: 50px;
+	font-size: 20px;
+}
+.TableTwo {
+	position: relative;
+	height: 500px;
+	width: 250px;
+	border: 2px solid black;
+	background-color: white;
+	border-radius: 10px;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 130px;
+	margin-left: 80px;
+	margin-right: 340px;
+	margin-bottom: 50px;
+	padding: 20px;
+
+}
+.HeaderTwo {
+	margin-top: 20px;
+	margin-bottom: 50px;
+	font-size: 20px;
+}
+.TableThree {
+	position: relative;
+	height: 500px;
+	width: 250px;
+	border: 2px solid black;
+	background-color: white;
+	border-radius: 10px;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 130px;
+	margin-left: 80px;
+	margin-right: 50px;
+	margin-bottom: 50px;
+	padding: 20px;
+}
+.HeaderThree {
+	margin-top: 20px;
+	margin-bottom: 50px;
+	font-size: 20px;
+}
+.Footing {
+	position: absolute;
+	height: 30px;
+	width: 100%;
+	background-color: rgb(0, 0, 102);
+	color: white;
+	padding-top: 15px;
+	padding-left: 10px;
+}

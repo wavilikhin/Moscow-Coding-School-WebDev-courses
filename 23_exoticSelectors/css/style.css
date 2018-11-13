@@ -1,0 +1,13 @@
+@import url(reset.css);	
+{
+
+}
+
+.mainSection {
+	height: 200px;
+	background-color: black;
+	color: white;
+}
+.mainSection.first {
+	font-size: 20px;
+}
