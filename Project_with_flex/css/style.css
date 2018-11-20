@@ -1,0 +1,158 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css?family=Cardo|Dancing+Script|Maven+Pro');	
+{
+
+}
+.WholeHeader {
+	height: 50px;
+	background-color: rgb(153, 187, 255);
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	font-family: 'Maven Pro', sans-serif;
+}
+.Heading {
+	margin-left: 25px;
+	color: rgb(0, 77, 77);
+	font-size: 20px;
+}
+.Links {;
+	margin-right: 25px;
+	word-spacing: 40px;
+}
+a {
+	color: rgb(0, 77, 77);
+	text-decoration: none;
+	font-size: 20px;
+}
+.SectionOne {
+	height: 500px;
+	width: 100%;
+	background-image: url(../img/mountains.jpg);
+	background-size: cover;	
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding-top: 10px;
+	font-family: 'Dancing Script', cursive;
+	font-size: 100px;
+	color: rgb(218, 255, 179);
+}
+.MainContent {
+	margin-left: 5%;
+	margin-right: 5%;
+}
+.SectionTwo {
+	height: 350px;
+	width: 100%;
+	background-color: rgb(230, 240, 255);
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	border: 1px solid black;
+	border-radius: 10px;
+	box-shadow: 0 0 3px grey;
+	overflow: auto;
+}
+.SectionTwoHeading {
+	margin: 20px;
+	font-size: 30px;
+	font-family: 'Maven Pro', sans-serif;
+}
+.SectionTwoText {
+	margin: 20px;
+	font-size: 20px;
+	font-family: 'Cardo', serif;
+}
+.Why {
+	height: 100px;
+	text-align: center;
+	font-family: 'Dancing Script', cursive;
+	font-size: 60px;
+	color: rgb(64, 64, 64);
+}
+.SectionThree {
+	height: 400px;
+	width: 80%;
+	margin-left: auto;
+    margin-right: auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+}
+.wine {
+	height: 300px;
+	width: 300px;
+	border: 3px solid grey;
+	border-radius: 50%;
+}
+.meat {
+	height: 300px;
+	width: 300px;
+	border: 3px solid grey;
+	border-radius: 50%;
+}
+.landscape {
+	height: 300px;
+	width: 300px;
+	border: 3px solid grey;
+	border-radius: 50%;
+}
+.SectionFour {
+	height: 100px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 20px;
+}
+.SectionFive {
+	height: 500px;
+	width: 100%;
+	background-color: rgb(230, 240, 255);
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	margin-top: 100px;
+	margin-bottom: 200px;
+	border: 1px solid black;
+	overflow: auto;
+}
+.SectionFiveText {
+	margin: 20px;
+	font-family: 'Cardo', serif;
+	font-size: 20px
+}
+.SectionFiveHeading {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 30px;
+	font-family: 'Maven Pro', sans-serif;
+}
+.SectionFiveImg {
+	height: 400px;
+	width: 400px;
+	margin: 40px;
+}
+.Copyright {
+	height: 30px;
+	background-color: rgb(153, 187, 255);
+	font-family: 'Maven Pro', sans-serif;
+	text-align: center;
+	padding-top: 15px
+}
