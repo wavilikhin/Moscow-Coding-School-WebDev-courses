@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta description="Registration Form">
+	<meta keywords="registration">
+	<title>Create new account</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="page">
+	<form method="POST" action="http://free.allforms.mailjol.net/u/64cc37ff.php">
+		<fieldset class="PersonalInfo">
+		<label for="name">Имя</label>
+		<input type="text" name="name" required" placeholder="Владимир">
+		<label for="surname">Фамилия</label>
+		<input type="text" name="surname" required" placeholder="Владимирович">
+		<label for="patronymic">Отчество</label>
+		<input type="text" name="patronymic" required" placeholder="Путин">
+		<label for="birth">Дата рождения</label>
+		<input type="date" name="birth" required">
+		<label for="gender">Укажите ваш пол</label>
+		<input type="radio" name="gender" value="male" required"> <span class="rad"> Мужской</span>
+		<input type="radio" name="gender" value="female" required"><span class="rad"> Женский</span>
+		<label for="email">Ваш e-mail адрес</label>
+		<input type="e-mail" name="email" required" placeholder="example@ex.com">
+		<label for="password">Придумайте пароль</label>
+		<input type="password" name="password" required">
+		<label for="password">Подтвердите ваш пароль</label>
+		<input type="password" name="password" required">
+		</fieldset>
+		<fieldset class="agreements">
+			<input type="checkbox" name="news" value="agree to recive"> <span> Хочу получать еженедельные рассылки</span><br>
+			<input type="checkbox" name="rules" value="agree with rules" required> <span>Я ознакомился с <a href="#">правилами</a> и принимаю их</label></span>
+		</fieldset>	
+		<input type="submit">			
+	</div>
+    </form>
+    </div>
+</body>
+</html>
