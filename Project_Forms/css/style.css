@@ -1,5 +1,7 @@
 @import url(reset.css);
-
+html {
+	height: 100%;
+}
 body {
 	background-image: url(../img/wave.jpg);
 	background-size: cover;
