@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css?family=Inconsolata|Montserrat");
+header {
+  width: 15vw;
+  height: 100%;
+  position: fixed; }
+  header .header-content {
+    width: 80%;
+    margin: -26px auto 0; }
+    header .header-content .main-header {
+      text-align: center;
+      font-family: "Montserrat", sans-serif;
+      color: #272727;
+      cursor: pointer; }
+    header .header-content .menu-nav {
+      margin-right: 25px;
+      text-align: right;
+      font-family: "Inconsolata", monospace;
+      line-height: 30px;
+      list-style: none; }
+      header .header-content .menu-nav .works-page {
+        margin: 0; }
+      header .header-content .menu-nav .works-list-item {
+        list-style: none; }
+        header .header-content .menu-nav .works-list-item:hover {
+          color: #4b01a0; }
+        header .header-content .menu-nav .works-list-item .work-link {
+          display: inline-block;
+          text-decoration: none;
+          color: #272727;
+          transition: all 0.5s ease-in; }
+          header .header-content .menu-nav .works-list-item .work-link:hover {
+            color: #4b01a0;
+            transition: all 0.4s ease-out; }
+    header .header-content .about-contacts .about-contacts-btn {
+      cursor: pointer;
+      margin-left: 25px;
+      outline: none;
+      background-color: white;
+      border: none; }
+      header .header-content .about-contacts .about-contacts-btn:hover {
+        color: #4b01a0;
+        transition: all 0.4s ease-out; }
+      header .header-content .about-contacts .about-contacts-btn:not(:hover) {
+        transition: all 0.5s ease-in; }
+  header .icons {
+    margin: 0px 25px 10px 25px;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: flex-end; }
+    header .icons .fa-telegram {
+      color: #272727;
+      transform: scale(0.7);
+      transition: all 0.4s ease-out; }
+      header .icons .fa-telegram:hover {
+        color: #0088cc;
+        transform: scale(0.8);
+        transition: all 0.5s ease-in; }
+    header .icons .fa-instagram {
+      color: #272727;
+      transform: scale(0.7);
+      transition: all 0.4s ease-out; }
+      header .icons .fa-instagram:hover {
+        color: #d6249f;
+        transform: scale(0.8);
+        transition: all 0.5s ease-in; }
+
+main {
+  height: 100%;
+  width: 85vw;
+  position: relative;
+  margin: 70px 0px 0px 15vw; }
+  main .main-content {
+    display: grid;
+    color: white;
+    text-align: center;
+    line-height: 500px;
+    font-size: 3rem;
+    font-family: "Courier New", Courier, sans;
+    grid-gap: 15px;
+    grid-template-columns: repeat(13, 5.5vw);
+    grid-template-rows: repeat(17, 10vw);
+    grid-auto-flow: dense; }
+    main .main-content .img {
+      background-color: #1b1bb9;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat; }
+    main .main-content .img.one {
+      grid-column: span 4;
+      grid-row: span 3; }
+    main .main-content .img.two {
+      grid-column: span 5;
+      grid-row: span 4; }
+    main .main-content .img.three {
+      grid-column: span 4;
+      grid-row: span 3; }
+    main .main-content .img.four {
+      grid-column: span 4;
+      grid-row: span 2; }
+    main .main-content .img.five {
+      grid-column: span 5;
+      grid-row: span 3; }
+    main .main-content .img.six {
+      grid-column: span 4;
+      grid-row: span 2; }
+    main .main-content .img.seven {
+      grid-column: span 4;
+      grid-row: span 2; }
+    main .main-content .img.eight {
+      grid-column: span 4;
+      grid-row: span 4; }
+    main .main-content .img.nine {
+      grid-column: span 9;
+      grid-row: span 3; }
+    main .main-content .img.ten {
+      grid-column: span 5;
+      grid-row: span 3; }
+    main .main-content .img.eleven {
+      grid-column: span 4;
+      grid-row: span 2; }
+    main .main-content .img.twelve {
+      grid-column: span 4;
+      grid-row: span 3; }
+    main .main-content .img.thirteen {
+      grid-column: span 4;
+      grid-row: span 5; }
+    main .main-content .img.fourteen {
+      grid-column: span 5;
+      grid-row: span 3; }
+    main .main-content .img.fifteen {
+      grid-column: span 4;
+      grid-row: span 3; }
+
+.about-container {
+  margin-left: 50px;
+  display: grid;
+  grid-template-columns: 200px 200px 250px 250px;
+  grid-template-rows: 50px 290px 60px;
+  grid-template-areas: "photo photo headline headline" "photo photo info info" "mail social . .";
+  grid-gap: 15px; }
+
+.about-photo {
+  grid-area: photo;
+  background-image: url(../img/portrait.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 2%; }
+
+.about-headline {
+  grid-area: headline;
+  text-align: center;
+  line-height: 45px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif; }
+
+.about-info {
+  grid-area: info;
+  text-align: left;
+  padding: 0 40px;
+  font-family: "Inconsolata", monospace; }
+
+.about-mail {
+  grid-area: mail;
+  padding: 10px;
+  font-family: "Inconsolata", monospace;
+  text-align: left; }
+
+.about-social {
+  grid-area: social;
+  padding: 10px;
+  font-family: "Inconsolata", monospace;
+  text-align: left; }
+
+.e-mail {
+  color: #d1239d; }
+
+.inst {
+  color: #d1239d; }
+
+.current {
+  color: #4b01a0; }
+
+a {
+  text-decoration: none; }
+
+* {
+  box-sizing: border-box; }
